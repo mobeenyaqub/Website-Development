@@ -1,0 +1,248 @@
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bangers&family=Caveat:wght@700&family=Great+Vibes&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Courgette&family=Lora&display=swap" rel="stylesheet">
+
+<script type="text/javascript" src="jquery.min.js"></script>
+
+<style type="text/css">
+
+    
+   
+ 
+
+    body{
+        position: relative;
+    }
+    
+    .bar{
+        margin-top: 10px;
+         background-image: url(maths.jpg);
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+    
+   
+    
+    .input-group{
+        margin-top: 30px;
+       
+      
+    }
+    
+    .jumbotron{
+        padding: 50px;
+        text-align: center;
+        background-image: url(123.jpg);
+        background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+    
+    .display-4{
+        margin-bottom: 30px;    
+    }
+    
+    .lead{
+        color: white;
+        font-weight: bold;
+        background-color: black
+    }
+    
+</style>
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Project</title>
+  </head>
+  <body>
+ 
+
+<div class="container">
+          
+          
+      
+                    <div class="navbar-main">
+
+
+                          <nav class="navbar navbar-light" style="background-color: #722f37;">
+                  <a style="color: #C0C0C0;margin: 0 auto;font-family:'Bangers', cursive " class="navbar-brand" href="#">Mathzar</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                  </button>
+                </nav>
+
+                        </div>
+
+    
+    
+                              <div class="buttons-main sticky-top">
+
+                                  <div class="sticky-top btn-group btn-group-toggle w-100 p-3" data-toggle="buttons">
+                                      
+                                     
+                          <label class="btn  btn-secondary">
+                              
+                           <input class="btn"  type="radio" name="options" id="option1" autocomplete="on" checked> Factors
+                             
+
+
+                          </label>
+                          <label class="btn btn-secondary">
+                            <input class="btn" href="#down" type="radio" name="options" autocomplete="off" id="option2" > BreakIt
+                          </label>
+                          <label class="btn btn-secondary">
+                            <input class="btn" href="#down" type="radio" autocomplete="off" name="options" id="option3"> Table
+                          </label>
+                        </div>
+
+
+
+
+
+
+
+     </div>
+
+
+    
+                             <div class="jumbo-tron">
+
+
+                    <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                     <h1 style="background-color: black;color: white;font-weight: 50;" class="display-4 w-25 p-3 mx-auto">Mathzar</h1>
+                     <p class="lead w-50 p-3 mx-auto">Click any of the top buttons to continue.</p>
+                                                          </div>
+                                                        </div>
+
+                                                    </div>
+    
+
+                                                        <div id="data">
+
+                            <form>
+                                                            
+                    <div class="bar w-100 p-3 h-100 d-inline-block">
+                        
+                                
+                        
+                                                <div class="input-group w-75 p-3   mx-auto 11">
+                                          <div class="input-group-prepend">
+                                            <span style="background-color: #722f37;color:azure;" class="input-group-text" id="">Number</span>
+                                          </div>
+                                          <input id="factors" style="text-align: center;margin-right: 10px;" type="number" class="form-control" placeholder="Enter The Number To Find Its Factors">
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+
+                                        </div>
+                                                      <div class="input-group w-75 p-3   mx-auto 22">
+                                              <div class="input-group-prepend">
+                                                     <span style="background-color: #722f37;color: azure;" class="input-group-text" id="">BreakIt</span>
+                                               </div>
+                                              <input id="breakit" style="text-align: center;margin-right: 10px;" type="number" class="form-control" placeholder="Enter The Number To Find Its Cardinal Value (Billion/Million/Thousand)">
+                                                     <button type="submit" class="btn btn-primary">Submit</button>
+
+                                                        </div>
+
+                                                   <div class="input-group w-75 p-3   mx-auto 33">
+                                              <div class="input-group-prepend">
+                                             <span style="background-color: #722f37;color: azure;"class="input-group-text" id="">Table</span>
+                                                          </div>
+                                                          <input id="table" style="text-align: center; margin-right: 10px;" type="number" class="form-control" placeholder="Enter The Number To Find Its Table">
+                                                                       <button type="submit" class="btn btn-primary">Submit</button>
+
+                                                        </div>
+
+                                                              </div>
+
+
+                                               
+                                                                              </div>
+                                 
+                                                                        </form>
+
+                                                            
+
+                                                            </div>
+
+      
+    
+    
+      </div>
+      
+      
+     <script type="text/javascript">
+         
+         $("#data").hide();
+         
+	$(".btn").click(function(){
+	
+     
+      if($(this).attr("id")=="option1"){
+          
+           $("#data").show();
+          $(".11").show();
+         $(".22").hide();
+           $(".33").hide();
+         
+          
+      
+      }
+          
+        
+        
+        
+         });
+    
+         $(".btn").click(function(){
+             
+      if($(this).attr("id")=="option2"){
+
+          
+          $("#data").show();
+           $(".22").show();
+          $(".11").hide();
+          $(".33").hide();
+           
+      } 
+        }); 
+    
+        
+     
+          
+           $(".btn").click(function(){
+             
+      if($(this).attr("id")=="option3"){
+
+          
+          $("#data").show();
+           $(".33").show();
+          $(".11").hide();
+          $(".22").hide();
+           
+          
+      } 
+        }); 
+      
+	
+	
+	
+	
+	
+	</script>
+      
+          
+      
+      
+      
+    
+  </body>
+</html>
