@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #463f3a;
+    color: #aed9e0;
+}
+
+input{
+    padding: 10px;
+    text-align: center;
+    color: #03071e;
+    font-weight: 700;
+    border: 1px solid #d90429;
+}
+
+img{
+    margin: 10px;
+}
+
+#button{
+    display: block;
+    margin-top:20px;
+    margin-left: 5em;
+    padding: 10px 5px;
+    font-weight: 700;
+    background-color: #1b4332;
+    color: #aed9e0;
+}
+
+#button:hover{    
+    transition: 1s all;
+    transform: translateY(-5px);
+    cursor: pointer;
+    box-shadow: 5px 2px 2px 1px rgb(242, 233, 228, 0.2);
+}
