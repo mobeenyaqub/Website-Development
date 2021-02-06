@@ -1,0 +1,79 @@
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+    margin-left: -240px;
+    color:#adb5bd;
+}
+
+span{
+padding: 0 10px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+}
+
+#button1{
+    border: 2px solid;
+    text-align: center;
+    padding: 1em 2em;
+    color: #ffa260;
+    font-size: 1em;
+    background: none;
+    transition: all 0.2s;
+}
+
+#button1:hover{
+    border-color: #f1ff5c;
+    color: white;
+    /* X Y Blur Spread */
+    box-shadow:0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#button2{
+    margin-left: 10px;
+    border: 2px solid;
+    text-align: center;
+    padding: 1em 2em;
+    color: #3d405b;
+    font-size: 1em;
+    background: none;
+    transition: all 0.2s;
+}
+
+#button2:hover{
+    border-color: #3d405b;
+    color: #e6ccb2;
+    /* X Y Blur Spread */
+    box-shadow:0 0.5em 0.5em -0.4em #006d77;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#reset{
+    display: block;
+    margin-left: 10px;
+    border: 2px solid;
+    text-align: center;
+    padding: 1em 2em;
+    color: #d90429;
+    font-size: 1em;
+    background: none;
+    transition: all 0.2s;
+}
+
+#reset:hover{
+    border-color: #d90429;
+    color: #ef233c;
+    /* X Y Blur Spread */
+    box-shadow:0 0.5em 0.5em -0.4em #d90429;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
