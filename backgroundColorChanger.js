@@ -9,7 +9,7 @@ window.onload = function () {
         let g = Math.random() * 255;
         let b = Math.random() * 255;
 
-        let styling = body.style.backgroundColor = `rgb(${r},${g},${b})`;
+        body.style.backgroundColor = `rgb(${r},${g},${b})`;
         
     })
 
