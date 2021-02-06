@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+}
+
+#button{
+    border: 2px solid;
+    text-align: center;
+    padding: 1em 2em;
+    color: #ffa260;
+    font-size: 1em;
+    background: none;
+    transition: all 0.2s;
+}
+
+#button:hover{
+    border-color: #f1ff5c;
+    color: white;
+    /* X Y Blur Spread */
+    box-shadow:0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
