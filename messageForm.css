@@ -1,0 +1,30 @@
+body{
+    background-color:#9bf6ff;
+    color: black;
+}
+
+input{
+    display: block;
+    margin-top: 1em;
+    padding: 1em 2em;
+    text-align: center;
+    font-weight: 600;
+}
+
+button{
+    padding: 0.5em 2em;
+    margin-top: 1em;
+    margin-left: 4.5em;
+    background-color: #f1faee;
+    border: 2px solid black;
+    transition: 0.2s all;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-0.2em);
+    font-weight: 600;
+    box-shadow: 0 2px 0.5em 1px #caf0f8;
+    background: none;
+}
+
