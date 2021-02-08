@@ -1,0 +1,102 @@
+body{
+    margin: 0 auto;
+    background-color: #F4F4F4;
+    font-weight: 400;
+    line-height: 1.8em;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+}
+
+#div1{
+    width: 100%;
+    height: 95vh;
+    background-image: url(midTown.jpg);
+    opacity: 0.70;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    background-color: black;
+    color:white;
+    padding: 8px 5px;
+}
+
+#div4{
+    width: 100%;
+    height: 95vh;
+    background-image: url(midTown.jpg);
+    opacity: 0.70;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    background-color: black;
+    color:white;
+    padding: 8px 5px;
+ 
+}
+
+h1{
+    background-color: black;
+    padding: 0.4em;
+}
+
+#section1{
+    text-align: center;
+    height: 40vh;
+    margin-top: 0;
+}
+
+p{
+    color: #666666;
+}
+
+
+#div2{
+    background-image: url(bookeh.jpg);
+    width: 100%;
+    height: 60vh;
+    opacity: 0.70;
+    background-position:center;
+    background-size: cover;
+}
+
+#section2{
+    background-color: #282E34;
+    color: #DDDDDD;
+    text-align: center;
+    height: 30vh;
+    margin-top: -1.2em;
+    text-align: center;
+
+}
+
+#section2 p{
+    color:#DDDDDD
+}
+
+#div3{
+    background-image: url(buildings.jpg);
+    width: 100%;
+    height: 70vh;
+    opacity: 0.90;
+    background-position:center;
+    background-size: cover;
+}
+
+#section3{
+    background-color: #282E34;
+    color: #DDDDDD;
+    text-align: center;
+    height: 30vh;
+    margin-top: -1.3em;
+    text-align: center;
+}
